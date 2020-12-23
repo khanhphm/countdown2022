@@ -1,0 +1,84 @@
+*{
+	margin:0;
+	padding: 0;
+	font-family: Consolas;
+	color: #fff;
+	text-align: center;
+}
+
+canvas{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+html{
+	width: 100%;
+	height: 100%;
+}
+
+body{
+	width: 100%;
+	height: 100%;
+	background-color: #000;
+}
+
+
+h2{
+	font-size: 2.5em;
+}
+
+.container{
+	z-index: 1;
+	position: relative;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+
+}
+
+
+.countdown{
+	margin: auto;
+	width: 70%;
+	padding: 5% 10%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.countdown div{
+	
+
+	display: flex;
+	flex-direction: column;
+	font-weight: 900;
+	font-size: 2em;
+}
+
+.countdown div span{
+	font-size: 2.5em;
+}
+
+
+h1{
+	font-size: 60px;
+	transition: 1s;
+}
+
+h1 span{
+	font-size: 120px;
+	transition: 1s;
+}
+
+#cvs{
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background-color: none;
+}

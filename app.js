@@ -88,7 +88,7 @@ function Run() {
       //document.getElementById("box").innerHTML = "<audio src='bum.mp3' type='audio/mpeg' id='audio'></audio>";
       //document.getElementById("audio").play();
       //document.getElementById("box").innerHTML ="";
-      var audio = new Audio('bum.mp3');
+      var audio = new Audio('assets/bum.mp3');
       audio.volume=0.2;
       audio.play();
       shells.splice(ix, 1);

@@ -23,13 +23,13 @@ $(document).ready(function() {
      document.getElementById("second").innerHTML = "<span>" + seconds + "</span>SECOND";
      // If the count down is finished, write some text
       if(now-(now%1000)==sayTime){
-        var audio = new Audio("countdownsound.mp3");
+        var audio = new Audio("assets/countdownsound.mp3");
         audio.play();
       }
       if (distance <= 0) {
         clearInterval(x);
         document.getElementById("container").innerHTML = "<h1>HAPPY NEW YEAR <br> <span>2021</span> </h1>";
-        var audio = new Audio("Song.mp3");
+        var audio = new Audio("assets/Song.mp3");
         audio.play();
         Run();
       

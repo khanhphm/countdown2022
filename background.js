@@ -34,14 +34,7 @@ $(document).ready(function() {
   	context.fillRect(270, canvas.height, 10, -10);
   	context.fillRect(280, canvas.height, 10, -20);
   	context.fillRect(290, canvas.height, 10, -35);
-  var imagePaper = new Image();
-
-
-        imagePaper.onload = function(){
-            context.drawImage(imagePaper,250,20,20,20);
-        };
-
-      imagePaper.src = "moon.png";
+  
   
 
 
