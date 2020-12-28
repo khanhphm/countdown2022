@@ -88,7 +88,7 @@ function Run() {
       //document.getElementById("box").innerHTML = "<audio src='bum.mp3' type='audio/mpeg' id='audio'></audio>";
       //document.getElementById("audio").play();
       //document.getElementById("box").innerHTML ="";
-      var audio = new Audio('assets/bum.mp3');
+      var audio = new Audio('https://cdn.glitch.com/7a21d4aa-234f-4387-8b6d-a31ac501893e%2Fbum.mp3?v=1608735021394');
       audio.volume=0.2;
       audio.play();
       shells.splice(ix, 1);
