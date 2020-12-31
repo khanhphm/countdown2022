@@ -24,6 +24,7 @@ body{
 	width: 100%;
 	height: 100%;
 	background-color: #000;
+  
 }
 
 
@@ -81,4 +82,23 @@ h1 span{
     height: 100%;
     z-index: 1;
     background-color: none;
+}
+
+@media(max-width: 700px){
+  
+  .countdown div span{
+	font-size: 1.5em;
+}
+
+
+ .countdown div{
+	
+
+	display: flex;
+	flex-direction: column;
+	font-weight: 900;
+	font-size: 1em;
+}
+
+
 }
