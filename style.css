@@ -70,7 +70,7 @@ h1{
 }
 
 h1 span{
-	font-size: 120px;
+	font-size: 100px;
 	transition: 1s;
 }
 
@@ -84,7 +84,7 @@ h1 span{
     background-color: none;
 }
 
-@media(max-width: 700px){
+@media(max-width: 800px){
   
   .countdown div span{
 	font-size: 1.5em;
@@ -97,8 +97,11 @@ h1 span{
 	display: flex;
 	flex-direction: column;
 	font-weight: 900;
-	font-size: 1em;
+	font-size: 0.75em;
 }
 
+  h2{
+    font-size: 1.75em;
+  }
 
 }
