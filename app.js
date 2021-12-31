@@ -57,7 +57,7 @@ function newPass(shell) {
 var lastRun = 0;
 
 function Run() {
-  var audio = new Audio('https://cdn.glitch.com/7a21d4aa-234f-4387-8b6d-a31ac501893e%2Fbum.mp3?v=1608735021394');
+  var audio = new Audio('./bum.mp3');
   var dt = 1;
   if (lastRun != 0) { dt = Math.min(50, (performance.now() - lastRun)); }
 	lastRun = performance.now();

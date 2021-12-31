@@ -8,6 +8,7 @@
 	<title>Countdown To 2021</title>
 </head>
 <body>
+	
 	<canvas id="Canvas"></canvas>	
 	
 	<script src="app.js"></script>
@@ -18,7 +19,9 @@
 	</script>
 
 	<div class="container" id="container">
-		<h2>New Year Countdown</h2>
+		<h2 id='title'>
+			<button onclick="start()" class="button-64" role="button"><span class="text">CLick</span></button>
+		</h2>
 		<div class="countdown" >
 			<div id="day"></div>
 			<div id="hour"></div>
